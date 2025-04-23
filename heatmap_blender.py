@@ -27,7 +27,7 @@ print("Args: ", args)
 """Naming some defaults"""
 blend_name = "ReadyPos2.blend"
 obj = bpy.data.objects['SMPLX-mesh-male']
-vg_names = ['left_elbow', 'left_ankle', 'right_elbow', 'right_ankle']
+vg_names = ['left_elbow', 'right_elbow', 'left_ankle', 'right_ankle']
 
 #if you're wondering why I'm using """ instead of comments,
 #it's because they show up in a really pretty font with the panda syntax theme

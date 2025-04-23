@@ -5,10 +5,10 @@ import matplotlib.cm as cm
 import matplotlib.colors as colors
 import matplotlib.image as mpimg
 
-#manual only
+#manual onl
 ROW_TO_SELECT = 1
 OUTPUT = 'pictures/RoundtreeRender.png'
-TITLE = "Alex Pereria Vs. Khalil Roundtree Jr."
+TITLE = "Alex Pereira vs Khalil Roundtree Jr."
 
 filename = "datasets/Manual.csv"
 """Get Datasheet"""
@@ -69,7 +69,7 @@ ax.axis('off')
 quarters = [round(q, 2) for q in [0, maxv*0.25, maxv*0.5, maxv*0.75, maxv]]
 
 
-# Combine ticks
+# Combine labels
 all_ticks = sorted(set(limbs + quarters))
 
 label_dict = {v: name for v, name in zip(limbs, ['left_hand','right_hand','left_kick','right_kick'])}

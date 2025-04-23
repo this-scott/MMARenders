@@ -1,6 +1,6 @@
-# Posing SMPLX Models
+# 3D Attack Use Visualizer
 
-Keeping this short for now(will write full docs later)
+This could also be used for other fighters
 
 ## First Push
 This is for a project in my data visualization class.
@@ -54,12 +54,13 @@ In order to show this the manual data I collected is utilized and the frequency 
 Although the use of legs and the right hand is kind of inconsistent. There is a clear trend for the use of the left hand(likely for jabs) to keep opponents defensive and prowl for attacks.
 
 ## To Run
-1. Create a similar dataset to [datasets/Manual.csv](datasets/Manual.csv)
-2. Setup the inputs at the top [heatmap_wrapper.py](heatmap_wrapper.py) and run the script
+1. Download [Blender](https://www.blender.org/download/) and ensure it is in PATH
+2. Create a similar dataset to [datasets/Manual.csv](datasets/Manual.csv)
+3. Setup the inputs at the top [heatmap_wrapper.py](heatmap_wrapper.py) and run the script
 ```python3 heatmap_wrapper.py```
 *I highly recommend running it in this directory because the paths are relative to it*
 
 The wrapper will setup the command needed to run the blender script. It will then take the script's image output and create colorbar for reference.
 
 ## TODO:
-Prototype data collection through vision(YOLO Keypoints or Openpose)
+Prototype data collection through vision(YOLO Keypoints or Openpose). This is in a seperate repo
