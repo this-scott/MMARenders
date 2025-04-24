@@ -55,12 +55,15 @@ Although the use of legs and the right hand is kind of inconsistent. There is a 
 
 ## To Run
 1. Download [Blender](https://www.blender.org/download/) and ensure it is in PATH
+2. Download the readypos.blend file from this location(while my drive lasts): [readypos.blend](https://drive.google.com/file/d/1va6V0Ct8WQellLf9CvR2PZ9-E2C2ZH9A/view?usp=sharing) 
 2. Create a similar dataset to [datasets/Manual.csv](datasets/Manual.csv)
 3. Setup the inputs at the top [heatmap_wrapper.py](heatmap_wrapper.py) and run the script
 ```python3 heatmap_wrapper.py```
 *I highly recommend running it in this directory because the paths are relative to it*
 
 The wrapper will setup the command needed to run the blender script. It will then take the script's image output and create colorbar for reference.
+
+If you need the model files can be found here: [smplx](https://smpl-x.is.tue.mpg.de/)
 
 ## TODO:
 Prototype data collection through vision(YOLO Keypoints or Openpose). This is in a seperate repo
